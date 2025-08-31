@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Festivals Data Collector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Collect Indian Festivals Information</h1>
+    <form id="festivalForm">
+        <label for="name">Festival Name:</label>
+        <input type="text" id="name" required><br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" required><br><br>
+
+        <label for="location">Location (State/City):</label>
+        <input type="text" id="location" required><br><br>
+
+        <label for="significance">Significance:</label>
+        <textarea id="significance" rows="3" required></textarea><br><br>
+
+        <label for="traditions">Traditions:</label>
+        <textarea id="traditions" rows="3" required></textarea><br><br>
+
+        <label for="food">Food:</label>
+        <textarea id="food" rows="3" required></textarea><br><br>
+
+        <label for="celebrations">Celebrations:</label>
+        <textarea id="celebrations" rows="3" required></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Collected Festivals</h2>
+    <div id="festivalsList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
